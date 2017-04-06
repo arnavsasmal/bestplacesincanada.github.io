@@ -1,0 +1,299 @@
+	body {
+	    font-family: Tahoma, Verdana;
+	    border: 0px;
+	    margin: 0px;
+	    padding: 0px;
+	    background-color: #EDEDED;
+	}
+
+	div {
+	    position: relative;
+	}
+
+a{
+    color: white;
+}
+
+	.floatclear {
+	    float: none;
+	}
+
+	.wrapper {
+	    width: 100%;
+	    margin: auto;
+	}
+
+	.headerwrapper {
+	    width: 100%;
+	    background-color: white;
+	}
+
+	input[type=text] {
+	    position: relative;
+	    float: left;
+	    width: 250px;
+	    margin-top: -10px;
+	    padding: 10px;
+	    border: solid thin #BEBEBE;
+	    background-image: url("magnifier.png");
+	    background-repeat: no-repeat;
+	    background-position: 240px;
+	}
+
+	#header {
+	    width: 100%;
+	    margin: auto;
+	    padding-top: 15px;
+	    padding-bottom: 10px;
+	    height: 30px;
+	    height: 30px;
+	    border-bottom: 1px silver;
+	}
+
+	#logo {
+	    float: left;
+	    background-image: url("logo.jpg");
+	    background-repeat: no-repeat;
+	    background-size: contain;
+	    width: 35px;
+	    height: 30px;
+	    margin-left: 10px;
+	}
+
+	#menuwrapper {
+	    float: left;
+	    width: 40%;
+	    height: 30px;
+	}
+
+	#basketwrapper {
+	    float: right;
+	    width: 20%;
+	    height: 30px;
+	}
+
+	ul.menu {
+	    list-style-type: none;
+	    margin: 0;
+	    padding: 0;
+	}
+
+	ul.menu li a,
+	ul.menu li a:active,
+	ul.menu li a:visited {
+	    color: #545454;
+	    text-decoration: none;
+	    padding: 20px;
+	}
+
+	ul.menu li {
+	    display: inline;
+	}
+
+	ul.menu li a:hover {
+	    background-color: lightgray;
+	}
+
+	#banner {
+	    width: 100%;
+	    height: 500px;
+	    background-image: url("banner.jpg");
+	    background-repeat: no-repeat;
+	    background-size: 100%;
+	}
+
+	#bannerText {
+	    color: white;
+	    height: 100%;
+	    width: 100%;
+	    text-align: center;
+	    padding-top: 250px;
+	}
+
+	#bannerText h2 {
+	    font-weight: normal;
+	}
+
+	.col4 {
+	    width: 100%;
+	    padding-top: 10px;
+	    height: 250px;
+	}
+
+	.imageWrapper {
+	    width: 24%;
+	    height: 100%;
+	    float: left;
+	    margin: 5px;
+        margin-top: 30px;
+	}
+
+	.imageText {
+	    position: absolute;
+	    font-size: 15x;
+	    width: 90%;
+	    height: 70px;
+	    color: white;
+	    background-color: #363636;
+	    text-align: center;
+	    bottom: 0px;
+	    padding-top: 10px;
+	    padding-left: 5%;
+	    padding-right: 5%;
+	    float: left;
+	    filter: alpha(opacity=70);
+	    -moz-opacity: 0.7;
+	    opacity: 0.7;
+	}
+
+	imageText,
+	a:visited,
+	a:active {
+	    color: white;
+        
+	}
+
+	a.imageText,
+	a:active {
+	    color: white;
+	}
+
+	.singleImage {
+	    width: 90%;
+	    height: 100%s;
+	    background-repeat: no-repeat;
+	    background-size: 100%;
+	}
+
+	.colheader {
+	    background-color: #4D4D4D;
+	    color: white;
+	    width: 100%;
+	    height: 20px;
+	    padding-top: 10px;
+	    padding-bottom: 10px;
+	    text-align: center;
+	    margin-top: 20px;
+	    float: left;
+	}
+
+#heading{
+    
+    color: pink;
+}
+
+
+
+	#niagara {
+	    background-image: url("niagara.jpg"); 
+            width:100%;
+        height: 70%
+	}
+
+	#cntower {
+	    background-image: url("cntower.jpg");
+        width: 100%;
+        height: 70%;
+            
+	}
+
+	#torontozoo {
+	    background-image: url(torontozoo.jpg);
+        width: 100%;
+        height: 70%;
+            
+	}
+
+	#quebec {
+	    background-image: url(quebec.jpg);
+            width: 100%;
+        height: 70%;
+	}
+
+	#ontario {
+	    background-image: url(superhot.png)
+	}
+
+	#novascotia {
+	    background-image: url(novascotia.jpg)
+	}
+
+	#happyroom {
+	    background-image: url(happyroom.png)
+	}
+
+	#vlogs {
+	    background-image: url(vlog.jpg)
+	}
+
+	#recommended {
+	    margin-top: 20px;
+	    width: :100%;
+	    float: left;
+	    text-align: :center;
+	    background-color: :white;
+	    text-decoration-color: white;
+	}
+
+	.recImage {
+	    width: 15%;
+	    height: :5px;
+	    background-size: contain;
+	    padding: 20px;
+	    float: left;
+	    background-repeat: no-repeat;
+	    background-position: center;
+	    padding-top: 120px;
+	    color: white;
+	}
+
+	#recImage1 {
+	    background-image: url(subnautica%20-%20Copy.jpg);
+	}
+
+	#recImage2 {
+	    background-image: url(happywheels%20-%20Copy.png)
+	}
+
+	#recImage3 {
+	    background-image: url(superhot%20-%20Copy.png)
+	}
+
+	#recImage4 {
+	    background-image: url(surgeonsim%20-%20Copy.png);
+	    color: black;
+	}
+
+	#recImage5 {
+	    background-image: url(vlog%20-%20Copy.jpg)
+	}
+
+	#footer {
+	    width: 100%;
+	    height: 80px;
+	    background-color: #4D4D4D;
+	    color: white;
+	    padding-left: 5%;
+	    margin-top: 20px;
+	    float: left;
+	}
+
+	#social {
+	    width: 400px;
+	    float: left;
+	    padding-top: 25px;
+	    height: 50px;
+	}
+
+	#fbicon {
+	    margin-left: 15px;
+	    position: absolute;
+	    top: 20px;
+	    left: 130px;
+	}
+
+	#twicon {
+	    position: absolute;
+	    top: 20px;
+	    left: 180px;
+	}
